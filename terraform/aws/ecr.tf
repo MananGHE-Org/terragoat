@@ -21,6 +21,7 @@ locals {
 }
 
 
+
 resource null_resource "push_image" {
   provisioner "local-exec" {
     working_dir = "${path.module}/resources"
